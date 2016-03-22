@@ -10,9 +10,13 @@ public class Stats {
 			for (int i = 0; i < ints.length; i++) {
 				sum += ints[i];
 			}
-
 			return sum / ints.length;
 		}
+	}
+
+	public static int range(int[] ints) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }
