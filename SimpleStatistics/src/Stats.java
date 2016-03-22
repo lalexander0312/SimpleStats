@@ -1,6 +1,19 @@
-
+/**
+ * 
+ * This program is a statistics library.
+ * It will include a mean, mode, range, and median method.
+ * 
+ * @author Richard Poore
+ * 
+ *
+ */
 public class Stats {
 
+	/**
+	 * 
+	 * @param ints The parameter is an array of integers
+	 * @return mean() will return the mean as an integer
+	 */
 	public static int mean(int[] ints) {
 
 		if (ints.length == 0)
@@ -14,8 +27,13 @@ public class Stats {
 		}
 	}
 
+	/**
+	 * 
+	 * @param ints The parameter is an array of integers
+	 * @return the range as an integer
+	 */
 	public static int range(int[] ints) {
-		// TODO Auto-generated method stub
+		
 		return 0;
 	}
 
