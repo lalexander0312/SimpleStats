@@ -36,5 +36,24 @@ public class Stats {
 		
 		return 0;
 	}
+/**
+ * 
+ * @param ints The parameter is an array of integers
+ * @return the mode (most common number) as an integer
+ */
+	public static int mode(int[] ints) {
+		
+		return 0;
+	}
+
+	/**
+	 * 
+	 * @param ints The parameter is an array of integers
+	 * @return the median (middle number when sorted (or mean of the two middle numbers) as an integer
+	 */
+	public static Object median(int[] ints) {
+	
+	return 0;
+}
 
 }
