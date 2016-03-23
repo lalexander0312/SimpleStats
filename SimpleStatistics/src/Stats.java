@@ -33,8 +33,16 @@ public class Stats {
 	 * @return the range as an integer
 	 */
 	public static int range(int[] ints) {
+		int highest=-2000000000;
+		int lowest=2000000000;
 		
-		return 0;
+		for (int i = 0; i < ints.length; i++)
+		{
+			highest = Math.max(highest, ints[i]);
+			lowest = Math.min(lowest, ints[i]);
+		}
+		
+		return highest - lowest;
 	}
 /**
  * 
@@ -42,7 +50,16 @@ public class Stats {
  * @return the mode (most common number) as an integer
  */
 	public static int mode(int[] ints) {
+		//Create integer variables for
+			//mode = 0
+			//modeCount = 0
 		
+		//Loop through the array
+			//if the count of this number is more than modeCount
+				//make this number the mode
+				//and make this number's count the modeCount
+		
+		//return mode;
 		return 0;
 	}
 
@@ -55,5 +72,18 @@ public class Stats {
 	
 	return 0;
 }
+
+	public static int count(int[] daArray, int daNum) {
+
+		int count = 0;
+		
+		for (int i = 0; i < daArray.length; i++)
+		{
+			if (daArray[i]==daNum)
+				count++;
+		}
+
+		return count;
+	}
 
 }
